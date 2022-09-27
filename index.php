@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Formulário de Produtos</title>
 </head>
+
 <body>
     <section>
         <div class="container tamanhoFormulario">
@@ -15,19 +17,19 @@
                 <h3 style="text-align: center">Cadastro de Produtos</h3>
                 <div class="form-group">
                     <label>Código Produto</label>
-                    <input type="number" class="form-control" placeholder="Entre com o código do produto:" required>
+                    <input type="number" class="form-control" name="numeroProduto" placeholder="Entre com o código do produto:" required>
                 </div>
                 <div class="form-group">
                     <label>Nome Produto</label>
-                    <input type="text" class="form-control" placeholder="Entre com o nome do produto:" required>
+                    <input type="text" class="form-control" name="nomeProduto" placeholder="Entre com o nome do produto:" required>
                 </div>
                 <div class="form-group">
                     <label>Quantidade</label>
-                    <input type="number" class="form-control" placeholder="Entre com a quantidade de produto:" required>
+                    <input type="number" class="form-control" name="qtdProduto" placeholder="Entre com a quantidade de produto:" required>
                 </div>
                 <div class="form-group">
                     <label>Categoria</label>
-                    <select class="form-control">
+                    <select class="form-control" name="catProduto">
                         <option>Headset</option>
                         <option>Mouse</option>
                         <option>Teclado</option>
@@ -38,7 +40,7 @@
                 </div>
                 <div class="form-group">
                     <label>Fonecedores</label>
-                    <select class="form-control">
+                    <select class="form-control" name="fornProduto">
                         <option>Microsoft</option>
                         <option>Multilaser</option>
                         <option>Positivo</option>
