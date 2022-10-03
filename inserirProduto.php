@@ -21,6 +21,6 @@
     <h4>Produto Cadastrado com Sucesso!</h4>
 
     <div>
-        <a href="index.html" role="button" class="btn btn-sm btn-secondary">Cadastrar novo Ítem</a>
+        <a href="index.html" role="button" class="btn btn-sm btn-secondary">Voltar</a>
     </div>
 </div>
