@@ -21,7 +21,7 @@
                     <th scope="col">Estoque</th>
                     <th scope="col">Categoria</th>
                     <th scope="col">Fornecedor</th>
-                    <!-- <th scope="col">Nickname</th> -->
+                    <th scope="col">Ação</th>
                 </tr>
             </thead>
 
@@ -44,6 +44,8 @@
                 <td><?php echo $qtdProduto      ?></td>
                 <td><?php echo $catProduto      ?></td>
                 <td><?php echo $fornProduto     ?></td>
+                <td><a style="text-decoration:none;" 
+                href="editarProduto.php?id=<?php echo $idProduto ?>">Editar</a></td>
             </tr>
             <?php } ?>
 
