@@ -44,12 +44,17 @@
                 <td><?php echo $qtdProduto      ?></td>
                 <td><?php echo $catProduto      ?></td>
                 <td><?php echo $fornProduto     ?></td>
-                <td><a style="text-decoration:none;" 
-                href="editarProduto.php?id=<?php echo $idProduto ?>">Editar</a></td>
+                <td>
+                    <a style="text-decoration:none;" 
+                    href="editarProduto.php?id=<?php echo $idProduto ?>">Editar</a>
+
+                    <a style="text-decoration:none; color:red" 
+                    href="deletarProduto.php?id=<?php echo $idProduto ?>">Excluir</a>
+            
+            
+            </td>
             </tr>
             <?php } ?>
-
-            
 
 
         </table>
